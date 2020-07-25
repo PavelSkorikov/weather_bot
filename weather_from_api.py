@@ -6,6 +6,11 @@ import dotenv
 
 dotenv.load_dotenv('.env')
 
+import log_config
+logger = log_config.logger
+log_error = log_config.log_error
+
+@log_error(logger)
 def GetForecastFromAPI():
     """getting 14 days forecast weather from  api.worldweatheronline.com """
     url = 'http://api.worldweatheronline.com/premium/v1/weather.ashx?q=Ярославль&format=json&lang=ru&cc=no&mca=no&tp=24\
@@ -14,12 +19,14 @@ def GetForecastFromAPI():
         with open('weather.tmp', 'w', encoding='utf-8') as f:
             try:
                 json.dump(requests.get(url).json(), f, sort_keys=True, indent=2, ensure_ascii=False)
-                print('weather is writed')
+                logger.info('weather is getting from api.worldweatheronline.com')
             except Exception as e:
-                print(e)
+                logger.error(f'error getting from api.worldweatheronline.com {e}')
+        logger.info('data is write to file weather.tmp')
     except Exception as e:
-        print(e)
+        logger.error(f'error write to file weather.tmp {e}')
 
+@log_error(logger)
 def GetForecastFromFile(date):
     """getting weather forecast by date from local weather.tmp"""
     day = date.split('.')[::-1]
@@ -40,8 +47,9 @@ def GetForecastFromFile(date):
                     weather['error'] = ''
             if len(weather) == 0:
                 weather['error'] = 'Введенная дата выходит за рамки допустимого диапазона'
+        logger.info('data is read from file weather.tmp')
     except Exception as e:
-        print(e)
+        logger.error(f'error read from file weather.tmp {e}')
     return weather
 
 if __name__ == '__main__':

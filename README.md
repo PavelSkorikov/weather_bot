@@ -19,6 +19,10 @@ source ./venv/bin/activate
 pip3 install -r requirements.txt
 ./start.sh
 ```
+You can testing Telegram bot by adress:
+```
+@WorldweatheronlineBot
+```
 
 ## Running with Docker
 To run the server on a Docker container, 
@@ -29,3 +33,7 @@ Then execute the following from the root directory:
 sudo docker-compose up --build
 ```
 the server will be run
+You can testing Telegram bot by adress:
+```
+@WorldweatheronlineBot
+```
