@@ -1,4 +1,5 @@
 from flask import Flask
+from config import BOT_KEY
 from os import getenv
 from apscheduler.schedulers.background import BackgroundScheduler
 import telebot
@@ -13,30 +14,40 @@ sched = BackgroundScheduler(daemon=True)
 sched.add_job (GetForecastFromAPI, 'interval', hours=1)
 sched.start()
 
-bot = telebot.TeleBot(getenv('BOT_KEY'))
+bot = telebot.TeleBot(BOT_KEY)
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
-    bot.send_message(message.chat.id, 'Привет, ты написал мне /start')
+    """handler for start message"""
+    try:
+        bot.send_message(message.chat.id, 'Привет, ты написал мне /start')
+    except Exception as e:
+        print(e)
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
-    date = re.findall('\d{2}\.\d{2}\.\d{4}', message.text)
-    if len(date) > 0:
-        answer = GetForecastFromFile(date[0])
-        if answer['error']:
-            answer_str = answer['error']
+    """main bot handler"""
+    try:
+        date = re.findall('\d{2}\.\d{2}\.\d{4}', message.text)
+        if len(date) > 0:
+            answer = GetForecastFromFile(date[0])
+            if answer['error']:
+                answer_str = answer['error']
+            else:
+                answer_str = answer['description']+'\n Тмакс= '+answer['maxTemp']+'\n Тмин= '+answer['minTemp'] \
+                             + '\n Давление= ' + answer['pressure']+ '\n Влажность= ' + answer['humidity']
+                bot.send_photo(message.chat.id, answer['img'])
+            bot.send_message(message.from_user.id, answer_str)
+        elif message.text == "/help":
+            bot.send_message(message.from_user.id, "Для получения прогноза погоды на любой из следующих 15 дней - отправь дату в формате дд.мм.гггг")
         else:
-            answer_str = answer['description']+'\n Тмакс= '+answer['maxTemp']+'\n Тмин= '+answer['minTemp'] \
-                         + '\n Давление= ' + answer['pressure']+ '\n Влажность= ' + answer['humidity']
-        bot.send_photo(message.chat.id, answer['img'])
-        bot.send_message(message.from_user.id, answer_str)
-    elif message.text == "/help":
-        bot.send_message(message.from_user.id, "Для получения прогноза погоды на любой из следующих 15 дней - отправь дату в формате дд.мм.гггг")
-    else:
-        bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
-
-bot.polling(none_stop=True)
+            bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
+    except Exception as e:
+        print(e)
+try:
+    bot.polling(none_stop=True)
+except Exception as e:
+    print(e)
 
 @app.route('/')
 def index():
