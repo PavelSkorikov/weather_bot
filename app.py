@@ -23,13 +23,20 @@ def start_message(message):
 def get_text_messages(message):
     date = re.findall('\d{2}\.\d{2}\.\d{4}', message.text)
     if len(date) > 0:
-        bot.send_message(message.from_user.id, date[0])
+        answer = GetForecastFromFile(date[0])
+        if answer['error']:
+            answer_str = answer['error']
+        else:
+            answer_str = answer['description']+'\n Тмакс= '+answer['maxTemp']+'\n Тмин= '+answer['minTemp'] \
+                         + '\n Давление= ' + answer['pressure']+ '\n Влажность= ' + answer['humidity']
+        bot.send_photo(message.chat.id, answer['img'])
+        bot.send_message(message.from_user.id, answer_str)
     elif message.text == "/help":
         bot.send_message(message.from_user.id, "Для получения прогноза погоды на любой из следующих 15 дней - отправь дату в формате дд.мм.гггг")
     else:
         bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
 
-bot.polling(none_stop=True, interval=0)
+bot.polling(none_stop=True)
 
 @app.route('/')
 def index():

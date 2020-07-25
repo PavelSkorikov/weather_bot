@@ -26,15 +26,16 @@ def GetForecastFromFile(date):
             compare = list(set(day) & set(item['date'].split('-')))
             if len(compare) == 3:
                 weather['description'] = item['hourly'][0]['lang_ru'][0]['value']
-                weather['maxTemp'] = item['maxtempC']
-                weather['minTemp'] = item['mintempC']
-                weather['pressure'] = item['hourly'][0]['pressure']
-                weather['humidity'] = item['hourly'][0]['humidity']
+                weather['maxTemp'] = item['maxtempC']+'C'
+                weather['minTemp'] = item['mintempC']+'C'
+                pressure = int(item['hourly'][0]['pressure'])*0.075
+                weather['pressure'] = str(int(pressure))+'мм.рт.ст.'
+                weather['humidity'] = item['hourly'][0]['humidity']+'%'
                 weather['img'] = item['hourly'][0]['weatherIconUrl'][0]['value']
+                weather['error'] = ''
         if len(weather) == 0:
-            return 'this date is not found'
-        else:
-            return weather
+            weather['error'] = 'Введенная дата выходит за рамки допустимого диапазона'
+        return weather
 
 if __name__ == '__main__':
     GetForecastFromAPI()
