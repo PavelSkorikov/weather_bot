@@ -23,65 +23,65 @@
         "date": "2020-07-25",
         "hourly": [
           {
-            "DewPointC": "11",
+            "DewPointC": "10",
             "DewPointF": "51",
             "FeelsLikeC": "15",
-            "FeelsLikeF": "59",
-            "HeatIndexC": "16",
+            "FeelsLikeF": "58",
+            "HeatIndexC": "15",
             "HeatIndexF": "60",
             "WindChillC": "15",
-            "WindChillF": "59",
+            "WindChillF": "58",
             "WindGustKmph": "11",
             "WindGustMiles": "7",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "83",
-            "chanceofrain": "84",
-            "chanceofremdry": "0",
+            "chanceofovercast": "35",
+            "chanceofrain": "0",
+            "chanceofremdry": "92",
             "chanceofsnow": "0",
-            "chanceofsunshine": "0",
+            "chanceofsunshine": "87",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "28",
+            "cloudcover": "20",
             "humidity": "77",
             "lang_ru": [
               {
-                "value": "Местами дождь"
+                "value": "Переменная облачность"
               }
             ],
             "precipInches": "0.0",
-            "precipMM": "0.2",
+            "precipMM": "0.0",
             "pressure": "1016",
             "pressureInches": "30",
-            "tempC": "21",
-            "tempF": "69",
+            "tempC": "20",
+            "tempF": "68",
             "time": "24",
             "uvIndex": "5",
             "visibility": "8",
             "visibilityMiles": "4",
-            "weatherCode": "176",
+            "weatherCode": "116",
             "weatherDesc": [
               {
-                "value": "Patchy rain possible"
+                "value": "Partly cloudy"
               }
             ],
             "weatherIconUrl": [
               {
-                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
               }
             ],
-            "winddir16Point": "W",
-            "winddirDegree": "260",
+            "winddir16Point": "WSW",
+            "winddirDegree": "242",
             "windspeedKmph": "9",
-            "windspeedMiles": "6"
+            "windspeedMiles": "5"
           }
         ],
-        "maxtempC": "21",
-        "maxtempF": "69",
+        "maxtempC": "20",
+        "maxtempF": "68",
         "mintempC": "9",
         "mintempF": "48",
-        "sunHour": "13.7",
+        "sunHour": "14.5",
         "totalSnow_cm": "0.0",
         "uvIndex": "5"
       },
@@ -96,52 +96,52 @@
             "sunset": "08:48 PM"
           }
         ],
-        "avgtempC": "15",
-        "avgtempF": "59",
+        "avgtempC": "14",
+        "avgtempF": "57",
         "date": "2020-07-26",
         "hourly": [
           {
             "DewPointC": "13",
             "DewPointF": "55",
-            "FeelsLikeC": "15",
-            "FeelsLikeF": "59",
-            "HeatIndexC": "16",
-            "HeatIndexF": "60",
-            "WindChillC": "15",
-            "WindChillF": "59",
-            "WindGustKmph": "13",
-            "WindGustMiles": "8",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "56",
+            "HeatIndexC": "15",
+            "HeatIndexF": "58",
+            "WindChillC": "14",
+            "WindChillF": "56",
+            "WindGustKmph": "16",
+            "WindGustMiles": "10",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "82",
-            "chanceofrain": "70",
+            "chanceofovercast": "89",
+            "chanceofrain": "79",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "57",
-            "humidity": "81",
+            "cloudcover": "56",
+            "humidity": "83",
             "lang_ru": [
               {
-                "value": "Умеренный или сильный ливневый дождь"
+                "value": "Временами умеренный дождь"
               }
             ],
-            "precipInches": "0.2",
-            "precipMM": "4.3",
+            "precipInches": "0.0",
+            "precipMM": "0.5",
             "pressure": "1018",
             "pressureInches": "31",
-            "tempC": "20",
-            "tempF": "67",
+            "tempC": "18",
+            "tempF": "65",
             "time": "24",
             "uvIndex": "4",
             "visibility": "10",
             "visibilityMiles": "6",
-            "weatherCode": "356",
+            "weatherCode": "299",
             "weatherDesc": [
               {
-                "value": "Moderate or heavy rain shower"
+                "value": "Moderate rain at times"
               }
             ],
             "weatherIconUrl": [
@@ -149,17 +149,17 @@
                 "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
               }
             ],
-            "winddir16Point": "SSW",
-            "winddirDegree": "198",
-            "windspeedKmph": "14",
-            "windspeedMiles": "9"
+            "winddir16Point": "S",
+            "winddirDegree": "181",
+            "windspeedKmph": "17",
+            "windspeedMiles": "10"
           }
         ],
-        "maxtempC": "20",
-        "maxtempF": "67",
-        "mintempC": "11",
-        "mintempF": "51",
-        "sunHour": "13.7",
+        "maxtempC": "18",
+        "maxtempF": "65",
+        "mintempC": "7",
+        "mintempF": "45",
+        "sunHour": "12.0",
         "totalSnow_cm": "0.0",
         "uvIndex": "4"
       },
@@ -183,61 +183,61 @@
             "DewPointF": "59",
             "FeelsLikeC": "18",
             "FeelsLikeF": "65",
-            "HeatIndexC": "19",
+            "HeatIndexC": "20",
             "HeatIndexF": "67",
             "WindChillC": "18",
             "WindChillF": "65",
-            "WindGustKmph": "11",
-            "WindGustMiles": "7",
+            "WindGustKmph": "16",
+            "WindGustMiles": "10",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "1",
-            "chanceofovercast": "80",
-            "chanceofrain": "80",
+            "chanceofovercast": "82",
+            "chanceofrain": "84",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "56",
+            "cloudcover": "67",
             "humidity": "83",
             "lang_ru": [
               {
-                "value": "Умеренный или сильный ливневый дождь"
+                "value": "Местами дождь"
               }
             ],
             "precipInches": "0.3",
-            "precipMM": "7.2",
-            "pressure": "1019",
+            "precipMM": "7.9",
+            "pressure": "1018",
             "pressureInches": "31",
             "tempC": "23",
-            "tempF": "74",
+            "tempF": "73",
             "time": "24",
             "uvIndex": "5",
-            "visibility": "9",
+            "visibility": "8",
             "visibilityMiles": "5",
-            "weatherCode": "356",
+            "weatherCode": "176",
             "weatherDesc": [
               {
-                "value": "Moderate or heavy rain shower"
+                "value": "Patchy rain possible"
               }
             ],
             "weatherIconUrl": [
               {
-                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
+                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
               }
             ],
-            "winddir16Point": "SSE",
-            "winddirDegree": "154",
-            "windspeedKmph": "9",
-            "windspeedMiles": "6"
+            "winddir16Point": "SE",
+            "winddirDegree": "130",
+            "windspeedKmph": "14",
+            "windspeedMiles": "9"
           }
         ],
         "maxtempC": "23",
-        "maxtempF": "74",
+        "maxtempF": "73",
         "mintempC": "13",
         "mintempF": "55",
-        "sunHour": "12.0",
+        "sunHour": "11.1",
         "totalSnow_cm": "0.0",
         "uvIndex": "5"
       },
@@ -253,69 +253,69 @@
           }
         ],
         "avgtempC": "19",
-        "avgtempF": "67",
+        "avgtempF": "66",
         "date": "2020-07-28",
         "hourly": [
           {
-            "DewPointC": "16",
-            "DewPointF": "62",
+            "DewPointC": "17",
+            "DewPointF": "63",
             "FeelsLikeC": "19",
-            "FeelsLikeF": "67",
+            "FeelsLikeF": "66",
             "HeatIndexC": "20",
-            "HeatIndexF": "67",
+            "HeatIndexF": "68",
             "WindChillC": "19",
-            "WindChillF": "67",
-            "WindGustKmph": "19",
-            "WindGustMiles": "12",
+            "WindChillF": "66",
+            "WindGustKmph": "13",
+            "WindGustMiles": "8",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "3",
-            "chanceofovercast": "80",
-            "chanceofrain": "72",
+            "chanceofovercast": "92",
+            "chanceofrain": "77",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "41",
-            "humidity": "85",
+            "cloudcover": "64",
+            "humidity": "88",
             "lang_ru": [
               {
-                "value": "Умеренный или сильный ливневый дождь"
+                "value": "Небольшой ливневый дождь"
               }
             ],
             "precipInches": "0.2",
-            "precipMM": "5.2",
-            "pressure": "1014",
+            "precipMM": "4.1",
+            "pressure": "1017",
             "pressureInches": "30",
             "tempC": "24",
-            "tempF": "75",
+            "tempF": "74",
             "time": "24",
             "uvIndex": "5",
-            "visibility": "10",
-            "visibilityMiles": "6",
-            "weatherCode": "356",
+            "visibility": "8",
+            "visibilityMiles": "4",
+            "weatherCode": "353",
             "weatherDesc": [
               {
-                "value": "Moderate or heavy rain shower"
+                "value": "Light rain shower"
               }
             ],
             "weatherIconUrl": [
               {
-                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
+                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
               }
             ],
             "winddir16Point": "SE",
-            "winddirDegree": "145",
-            "windspeedKmph": "17",
-            "windspeedMiles": "10"
+            "winddirDegree": "142",
+            "windspeedKmph": "10",
+            "windspeedMiles": "6"
           }
         ],
         "maxtempC": "24",
-        "maxtempF": "75",
+        "maxtempF": "74",
         "mintempC": "15",
         "mintempF": "59",
-        "sunHour": "11.9",
+        "sunHour": "10.2",
         "totalSnow_cm": "0.0",
         "uvIndex": "5"
       },
@@ -330,70 +330,70 @@
             "sunset": "08:42 PM"
           }
         ],
-        "avgtempC": "17",
-        "avgtempF": "63",
+        "avgtempC": "20",
+        "avgtempF": "69",
         "date": "2020-07-29",
         "hourly": [
           {
-            "DewPointC": "16",
-            "DewPointF": "62",
-            "FeelsLikeC": "17",
-            "FeelsLikeF": "63",
-            "HeatIndexC": "18",
-            "HeatIndexF": "64",
-            "WindChillC": "17",
-            "WindChillF": "63",
-            "WindGustKmph": "22",
+            "DewPointC": "18",
+            "DewPointF": "64",
+            "FeelsLikeC": "20",
+            "FeelsLikeF": "69",
+            "HeatIndexC": "21",
+            "HeatIndexF": "70",
+            "WindChillC": "20",
+            "WindChillF": "69",
+            "WindGustKmph": "23",
             "WindGustMiles": "14",
-            "chanceoffog": "6",
+            "chanceoffog": "3",
             "chanceoffrost": "0",
-            "chanceofhightemp": "0",
-            "chanceofovercast": "89",
-            "chanceofrain": "84",
+            "chanceofhightemp": "4",
+            "chanceofovercast": "83",
+            "chanceofrain": "85",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "74",
-            "humidity": "92",
+            "cloudcover": "55",
+            "humidity": "87",
             "lang_ru": [
               {
-                "value": "Умеренный или сильный ливневый дождь"
+                "value": "Небольшой ливневый дождь"
               }
             ],
-            "precipInches": "0.1",
-            "precipMM": "3.4",
-            "pressure": "1007",
+            "precipInches": "0.3",
+            "precipMM": "6.9",
+            "pressure": "1011",
             "pressureInches": "30",
-            "tempC": "21",
-            "tempF": "70",
+            "tempC": "25",
+            "tempF": "77",
             "time": "24",
             "uvIndex": "4",
-            "visibility": "8",
-            "visibilityMiles": "4",
-            "weatherCode": "356",
+            "visibility": "9",
+            "visibilityMiles": "5",
+            "weatherCode": "353",
             "weatherDesc": [
               {
-                "value": "Moderate or heavy rain shower"
+                "value": "Light rain shower"
               }
             ],
             "weatherIconUrl": [
               {
-                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
+                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
               }
             ],
-            "winddir16Point": "SW",
-            "winddirDegree": "234",
+            "winddir16Point": "SSW",
+            "winddirDegree": "213",
             "windspeedKmph": "19",
             "windspeedMiles": "12"
           }
         ],
-        "maxtempC": "21",
-        "maxtempF": "70",
+        "maxtempC": "25",
+        "maxtempF": "77",
         "mintempC": "16",
-        "mintempF": "60",
-        "sunHour": "10.2",
+        "mintempF": "61",
+        "sunHour": "11.1",
         "totalSnow_cm": "0.0",
         "uvIndex": "4"
       },
@@ -408,52 +408,52 @@
             "sunset": "08:40 PM"
           }
         ],
-        "avgtempC": "17",
-        "avgtempF": "63",
+        "avgtempC": "19",
+        "avgtempF": "66",
         "date": "2020-07-30",
         "hourly": [
           {
             "DewPointC": "16",
             "DewPointF": "60",
-            "FeelsLikeC": "17",
-            "FeelsLikeF": "63",
-            "HeatIndexC": "18",
-            "HeatIndexF": "64",
-            "WindChillC": "17",
-            "WindChillF": "63",
-            "WindGustKmph": "27",
-            "WindGustMiles": "17",
+            "FeelsLikeC": "19",
+            "FeelsLikeF": "66",
+            "HeatIndexC": "19",
+            "HeatIndexF": "67",
+            "WindChillC": "19",
+            "WindChillF": "66",
+            "WindGustKmph": "26",
+            "WindGustMiles": "16",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "92",
-            "chanceofrain": "83",
+            "chanceofovercast": "81",
+            "chanceofrain": "72",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "60",
-            "humidity": "90",
+            "cloudcover": "40",
+            "humidity": "83",
             "lang_ru": [
               {
-                "value": "Небольшой ливневый дождь"
+                "value": "Местами дождь"
               }
             ],
-            "precipInches": "0.3",
-            "precipMM": "6.9",
-            "pressure": "1005",
+            "precipInches": "0.1",
+            "precipMM": "2.8",
+            "pressure": "1007",
             "pressureInches": "30",
-            "tempC": "21",
-            "tempF": "70",
+            "tempC": "23",
+            "tempF": "73",
             "time": "24",
             "uvIndex": "4",
-            "visibility": "7",
-            "visibilityMiles": "4",
-            "weatherCode": "353",
+            "visibility": "9",
+            "visibilityMiles": "5",
+            "weatherCode": "176",
             "weatherDesc": [
               {
-                "value": "Light rain shower"
+                "value": "Patchy rain possible"
               }
             ],
             "weatherIconUrl": [
@@ -462,16 +462,16 @@
               }
             ],
             "winddir16Point": "WSW",
-            "winddirDegree": "247",
-            "windspeedKmph": "26",
-            "windspeedMiles": "16"
+            "winddirDegree": "244",
+            "windspeedKmph": "27",
+            "windspeedMiles": "17"
           }
         ],
-        "maxtempC": "21",
-        "maxtempF": "70",
-        "mintempC": "15",
-        "mintempF": "58",
-        "sunHour": "11.0",
+        "maxtempC": "23",
+        "maxtempF": "73",
+        "mintempC": "16",
+        "mintempF": "60",
+        "sunHour": "11.9",
         "totalSnow_cm": "0.0",
         "uvIndex": "4"
       },
@@ -487,47 +487,47 @@
           }
         ],
         "avgtempC": "16",
-        "avgtempF": "61",
+        "avgtempF": "62",
         "date": "2020-07-31",
         "hourly": [
           {
-            "DewPointC": "12",
-            "DewPointF": "53",
-            "FeelsLikeC": "15",
-            "FeelsLikeF": "60",
+            "DewPointC": "13",
+            "DewPointF": "55",
+            "FeelsLikeC": "16",
+            "FeelsLikeF": "61",
             "HeatIndexC": "16",
-            "HeatIndexF": "61",
-            "WindChillC": "15",
-            "WindChillF": "60",
-            "WindGustKmph": "27",
-            "WindGustMiles": "17",
+            "HeatIndexF": "62",
+            "WindChillC": "16",
+            "WindChillF": "61",
+            "WindGustKmph": "23",
+            "WindGustMiles": "14",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "90",
-            "chanceofrain": "88",
+            "chanceofovercast": "89",
+            "chanceofrain": "82",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "59",
-            "humidity": "78",
+            "cloudcover": "46",
+            "humidity": "79",
             "lang_ru": [
               {
                 "value": "Местами дождь"
               }
             ],
-            "precipInches": "0.0",
-            "precipMM": "1.1",
+            "precipInches": "0.2",
+            "precipMM": "5.8",
             "pressure": "1005",
             "pressureInches": "30",
-            "tempC": "20",
-            "tempF": "67",
+            "tempC": "21",
+            "tempF": "69",
             "time": "24",
             "uvIndex": "4",
-            "visibility": "10",
-            "visibilityMiles": "6",
+            "visibility": "9",
+            "visibilityMiles": "5",
             "weatherCode": "176",
             "weatherDesc": [
               {
@@ -539,17 +539,17 @@
                 "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
               }
             ],
-            "winddir16Point": "W",
-            "winddirDegree": "271",
-            "windspeedKmph": "26",
-            "windspeedMiles": "16"
+            "winddir16Point": "WSW",
+            "winddirDegree": "258",
+            "windspeedKmph": "20",
+            "windspeedMiles": "12"
           }
         ],
-        "maxtempC": "20",
-        "maxtempF": "67",
+        "maxtempC": "21",
+        "maxtempF": "69",
         "mintempC": "12",
         "mintempF": "54",
-        "sunHour": "11.0",
+        "sunHour": "11.9",
         "totalSnow_cm": "0.0",
         "uvIndex": "4"
       },
@@ -564,72 +564,72 @@
             "sunset": "08:36 PM"
           }
         ],
-        "avgtempC": "14",
-        "avgtempF": "58",
+        "avgtempC": "16",
+        "avgtempF": "61",
         "date": "2020-08-01",
         "hourly": [
           {
-            "DewPointC": "11",
-            "DewPointF": "52",
-            "FeelsLikeC": "14",
-            "FeelsLikeF": "57",
-            "HeatIndexC": "14",
-            "HeatIndexF": "58",
-            "WindChillC": "14",
-            "WindChillF": "57",
-            "WindGustKmph": "24",
-            "WindGustMiles": "15",
+            "DewPointC": "13",
+            "DewPointF": "56",
+            "FeelsLikeC": "16",
+            "FeelsLikeF": "61",
+            "HeatIndexC": "16",
+            "HeatIndexF": "61",
+            "WindChillC": "16",
+            "WindChillF": "61",
+            "WindGustKmph": "11",
+            "WindGustMiles": "7",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "87",
-            "chanceofrain": "86",
+            "chanceofovercast": "92",
+            "chanceofrain": "88",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "60",
+            "cloudcover": "50",
             "humidity": "83",
             "lang_ru": [
               {
-                "value": "Местами дождь"
+                "value": "Умеренный или сильный ливневый дождь"
               }
             ],
-            "precipInches": "0.2",
-            "precipMM": "5.8",
-            "pressure": "1003",
+            "precipInches": "0.5",
+            "precipMM": "13.9",
+            "pressure": "1002",
             "pressureInches": "30",
-            "tempC": "18",
-            "tempF": "65",
+            "tempC": "20",
+            "tempF": "69",
             "time": "24",
-            "uvIndex": "3",
-            "visibility": "9",
-            "visibilityMiles": "5",
-            "weatherCode": "176",
+            "uvIndex": "4",
+            "visibility": "7",
+            "visibilityMiles": "4",
+            "weatherCode": "356",
             "weatherDesc": [
               {
-                "value": "Patchy rain possible"
+                "value": "Moderate or heavy rain shower"
               }
             ],
             "weatherIconUrl": [
               {
-                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
               }
             ],
-            "winddir16Point": "WNW",
-            "winddirDegree": "294",
-            "windspeedKmph": "21",
-            "windspeedMiles": "13"
+            "winddir16Point": "WSW",
+            "winddirDegree": "245",
+            "windspeedKmph": "9",
+            "windspeedMiles": "5"
           }
         ],
-        "maxtempC": "18",
-        "maxtempF": "65",
-        "mintempC": "11",
-        "mintempF": "51",
-        "sunHour": "11.0",
+        "maxtempC": "20",
+        "maxtempF": "69",
+        "mintempC": "12",
+        "mintempF": "53",
+        "sunHour": "11.9",
         "totalSnow_cm": "0.0",
-        "uvIndex": "3"
+        "uvIndex": "4"
       },
       {
         "astronomy": [
@@ -647,65 +647,65 @@
         "date": "2020-08-02",
         "hourly": [
           {
-            "DewPointC": "11",
-            "DewPointF": "52",
-            "FeelsLikeC": "15",
-            "FeelsLikeF": "59",
+            "DewPointC": "13",
+            "DewPointF": "56",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "57",
             "HeatIndexC": "15",
             "HeatIndexF": "59",
-            "WindChillC": "15",
-            "WindChillF": "59",
-            "WindGustKmph": "13",
-            "WindGustMiles": "8",
+            "WindChillC": "14",
+            "WindChillF": "57",
+            "WindGustKmph": "29",
+            "WindGustMiles": "18",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
             "chanceofovercast": "82",
-            "chanceofrain": "85",
+            "chanceofrain": "89",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "57",
-            "humidity": "80",
+            "cloudcover": "59",
+            "humidity": "92",
             "lang_ru": [
               {
-                "value": "Местами дождь"
+                "value": "Сильный дождь"
               }
             ],
-            "precipInches": "0.2",
-            "precipMM": "4.7",
-            "pressure": "1008",
+            "precipInches": "1.3",
+            "precipMM": "34.2",
+            "pressure": "1001",
             "pressureInches": "30",
-            "tempC": "19",
-            "tempF": "67",
+            "tempC": "17",
+            "tempF": "63",
             "time": "24",
             "uvIndex": "3",
-            "visibility": "10",
+            "visibility": "8",
             "visibilityMiles": "5",
-            "weatherCode": "176",
+            "weatherCode": "308",
             "weatherDesc": [
               {
-                "value": "Patchy rain possible"
+                "value": "Heavy rain"
               }
             ],
             "weatherIconUrl": [
               {
-                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png"
               }
             ],
-            "winddir16Point": "WNW",
-            "winddirDegree": "303",
-            "windspeedKmph": "14",
-            "windspeedMiles": "9"
+            "winddir16Point": "NE",
+            "winddirDegree": "47",
+            "windspeedKmph": "29",
+            "windspeedMiles": "18"
           }
         ],
-        "maxtempC": "19",
-        "maxtempF": "67",
-        "mintempC": "10",
-        "mintempF": "50",
-        "sunHour": "10.1",
+        "maxtempC": "17",
+        "maxtempF": "63",
+        "mintempC": "12",
+        "mintempF": "54",
+        "sunHour": "11.0",
         "totalSnow_cm": "0.0",
         "uvIndex": "3"
       },
@@ -720,52 +720,52 @@
             "sunset": "08:31 PM"
           }
         ],
-        "avgtempC": "11",
-        "avgtempF": "53",
+        "avgtempC": "14",
+        "avgtempF": "57",
         "date": "2020-08-03",
         "hourly": [
           {
-            "DewPointC": "10",
-            "DewPointF": "51",
-            "FeelsLikeC": "10",
-            "FeelsLikeF": "50",
-            "HeatIndexC": "11",
-            "HeatIndexF": "53",
-            "WindChillC": "10",
-            "WindChillF": "50",
-            "WindGustKmph": "20",
-            "WindGustMiles": "12",
+            "DewPointC": "13",
+            "DewPointF": "56",
+            "FeelsLikeC": "13",
+            "FeelsLikeF": "55",
+            "HeatIndexC": "14",
+            "HeatIndexF": "57",
+            "WindChillC": "13",
+            "WindChillF": "55",
+            "WindGustKmph": "23",
+            "WindGustMiles": "14",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "81",
-            "chanceofrain": "83",
+            "chanceofovercast": "80",
+            "chanceofrain": "87",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "87",
-            "humidity": "94",
+            "cloudcover": "100",
+            "humidity": "96",
             "lang_ru": [
               {
-                "value": "Слабая морось"
+                "value": "Небольшой дождь"
               }
             ],
-            "precipInches": "0.1",
-            "precipMM": "2.9",
-            "pressure": "1005",
+            "precipInches": "1.2",
+            "precipMM": "31.2",
+            "pressure": "996",
             "pressureInches": "30",
-            "tempC": "13",
-            "tempF": "56",
+            "tempC": "15",
+            "tempF": "58",
             "time": "24",
             "uvIndex": "3",
-            "visibility": "7",
+            "visibility": "8",
             "visibilityMiles": "4",
-            "weatherCode": "266",
+            "weatherCode": "296",
             "weatherDesc": [
               {
-                "value": "Light drizzle"
+                "value": "Light rain"
               }
             ],
             "weatherIconUrl": [
@@ -773,16 +773,16 @@
                 "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png"
               }
             ],
-            "winddir16Point": "NNW",
-            "winddirDegree": "328",
-            "windspeedKmph": "17",
-            "windspeedMiles": "11"
+            "winddir16Point": "SE",
+            "winddirDegree": "132",
+            "windspeedKmph": "29",
+            "windspeedMiles": "18"
           }
         ],
-        "maxtempC": "13",
-        "maxtempF": "56",
-        "mintempC": "9",
-        "mintempF": "49",
+        "maxtempC": "15",
+        "maxtempF": "58",
+        "mintempC": "13",
+        "mintempF": "55",
         "sunHour": "10.1",
         "totalSnow_cm": "0.0",
         "uvIndex": "3"
@@ -798,70 +798,70 @@
             "sunset": "08:29 PM"
           }
         ],
-        "avgtempC": "13",
-        "avgtempF": "55",
+        "avgtempC": "14",
+        "avgtempF": "58",
         "date": "2020-08-04",
         "hourly": [
           {
-            "DewPointC": "11",
-            "DewPointF": "51",
-            "FeelsLikeC": "11",
-            "FeelsLikeF": "52",
-            "HeatIndexC": "13",
-            "HeatIndexF": "55",
-            "WindChillC": "11",
-            "WindChillF": "52",
-            "WindGustKmph": "26",
-            "WindGustMiles": "16",
+            "DewPointC": "13",
+            "DewPointF": "56",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "56",
+            "HeatIndexC": "14",
+            "HeatIndexF": "58",
+            "WindChillC": "14",
+            "WindChillF": "56",
+            "WindGustKmph": "22",
+            "WindGustMiles": "14",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "80",
+            "chanceofovercast": "93",
             "chanceofrain": "89",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "68",
-            "humidity": "89",
+            "cloudcover": "85",
+            "humidity": "94",
             "lang_ru": [
               {
-                "value": "Сильный дождь"
+                "value": "Небольшой ливневый дождь"
               }
             ],
-            "precipInches": "0.5",
-            "precipMM": "12.9",
-            "pressure": "1007",
+            "precipInches": "0.3",
+            "precipMM": "8.1",
+            "pressure": "1003",
             "pressureInches": "30",
             "tempC": "18",
             "tempF": "65",
             "time": "24",
             "uvIndex": "3",
-            "visibility": "8",
-            "visibilityMiles": "4",
-            "weatherCode": "308",
+            "visibility": "9",
+            "visibilityMiles": "5",
+            "weatherCode": "353",
             "weatherDesc": [
               {
-                "value": "Heavy rain"
+                "value": "Light rain shower"
               }
             ],
             "weatherIconUrl": [
               {
-                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png"
+                "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
               }
             ],
             "winddir16Point": "WSW",
-            "winddirDegree": "241",
+            "winddirDegree": "248",
             "windspeedKmph": "27",
             "windspeedMiles": "17"
           }
         ],
         "maxtempC": "18",
         "maxtempF": "65",
-        "mintempC": "9",
-        "mintempF": "49",
-        "sunHour": "4.9",
+        "mintempC": "13",
+        "mintempF": "56",
+        "sunHour": "6.9",
         "totalSnow_cm": "0.0",
         "uvIndex": "3"
       },
@@ -881,28 +881,28 @@
         "date": "2020-08-05",
         "hourly": [
           {
-            "DewPointC": "13",
-            "DewPointF": "56",
-            "FeelsLikeC": "16",
-            "FeelsLikeF": "60",
+            "DewPointC": "14",
+            "DewPointF": "58",
+            "FeelsLikeC": "17",
+            "FeelsLikeF": "62",
             "HeatIndexC": "17",
             "HeatIndexF": "62",
-            "WindChillC": "16",
-            "WindChillF": "60",
-            "WindGustKmph": "37",
-            "WindGustMiles": "23",
+            "WindChillC": "17",
+            "WindChillF": "62",
+            "WindGustKmph": "26",
+            "WindGustMiles": "16",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "81",
-            "chanceofrain": "82",
+            "chanceofovercast": "91",
+            "chanceofrain": "88",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "69",
-            "humidity": "81",
+            "cloudcover": "83",
+            "humidity": "85",
             "lang_ru": [
               {
                 "value": "Умеренный или сильный ливневый дождь"
@@ -910,7 +910,7 @@
             ],
             "precipInches": "0.1",
             "precipMM": "1.7",
-            "pressure": "1008",
+            "pressure": "1007",
             "pressureInches": "30",
             "tempC": "21",
             "tempF": "70",
@@ -929,8 +929,8 @@
                 "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
               }
             ],
-            "winddir16Point": "SSE",
-            "winddirDegree": "165",
+            "winddir16Point": "ESE",
+            "winddirDegree": "120",
             "windspeedKmph": "32",
             "windspeedMiles": "20"
           }
@@ -938,8 +938,8 @@
         "maxtempC": "21",
         "maxtempF": "70",
         "mintempC": "14",
-        "mintempF": "57",
-        "sunHour": "4.9",
+        "mintempF": "58",
+        "sunHour": "4.0",
         "totalSnow_cm": "0.0",
         "uvIndex": "4"
       },
@@ -954,41 +954,41 @@
             "sunset": "08:24 PM"
           }
         ],
-        "avgtempC": "18",
-        "avgtempF": "64",
+        "avgtempC": "17",
+        "avgtempF": "62",
         "date": "2020-08-06",
         "hourly": [
           {
-            "DewPointC": "16",
-            "DewPointF": "60",
-            "FeelsLikeC": "18",
-            "FeelsLikeF": "64",
-            "HeatIndexC": "18",
-            "HeatIndexF": "64",
-            "WindChillC": "18",
-            "WindChillF": "64",
+            "DewPointC": "15",
+            "DewPointF": "59",
+            "FeelsLikeC": "17",
+            "FeelsLikeF": "62",
+            "HeatIndexC": "17",
+            "HeatIndexF": "62",
+            "WindChillC": "17",
+            "WindChillF": "62",
             "WindGustKmph": "25",
-            "WindGustMiles": "15",
+            "WindGustMiles": "16",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "89",
-            "chanceofrain": "80",
+            "chanceofovercast": "87",
+            "chanceofrain": "83",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "85",
-            "humidity": "88",
+            "cloudcover": "75",
+            "humidity": "90",
             "lang_ru": [
               {
                 "value": "Умеренный или сильный ливневый дождь"
               }
             ],
             "precipInches": "0.6",
-            "precipMM": "15.4",
-            "pressure": "1009",
+            "precipMM": "14.7",
+            "pressure": "1005",
             "pressureInches": "30",
             "tempC": "21",
             "tempF": "69",
@@ -1007,17 +1007,17 @@
                 "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
               }
             ],
-            "winddir16Point": "SSE",
-            "winddirDegree": "149",
+            "winddir16Point": "S",
+            "winddirDegree": "171",
             "windspeedKmph": "21",
             "windspeedMiles": "13"
           }
         ],
         "maxtempC": "21",
         "maxtempF": "69",
-        "mintempC": "15",
-        "mintempF": "59",
-        "sunHour": "4.0",
+        "mintempC": "13",
+        "mintempF": "56",
+        "sunHour": "4.9",
         "totalSnow_cm": "0.0",
         "uvIndex": "4"
       },
@@ -1032,32 +1032,32 @@
             "sunset": "08:22 PM"
           }
         ],
-        "avgtempC": "16",
-        "avgtempF": "61",
+        "avgtempC": "15",
+        "avgtempF": "59",
         "date": "2020-08-07",
         "hourly": [
           {
-            "DewPointC": "14",
-            "DewPointF": "57",
-            "FeelsLikeC": "16",
-            "FeelsLikeF": "61",
-            "HeatIndexC": "16",
-            "HeatIndexF": "61",
-            "WindChillC": "16",
-            "WindChillF": "61",
-            "WindGustKmph": "24",
-            "WindGustMiles": "15",
+            "DewPointC": "13",
+            "DewPointF": "55",
+            "FeelsLikeC": "15",
+            "FeelsLikeF": "59",
+            "HeatIndexC": "15",
+            "HeatIndexF": "59",
+            "WindChillC": "15",
+            "WindChillF": "59",
+            "WindGustKmph": "23",
+            "WindGustMiles": "14",
             "chanceoffog": "0",
             "chanceoffrost": "0",
             "chanceofhightemp": "0",
-            "chanceofovercast": "86",
-            "chanceofrain": "74",
+            "chanceofovercast": "80",
+            "chanceofrain": "72",
             "chanceofremdry": "0",
             "chanceofsnow": "0",
             "chanceofsunshine": "0",
             "chanceofthunder": "0",
             "chanceofwindy": "0",
-            "cloudcover": "77",
+            "cloudcover": "62",
             "humidity": "86",
             "lang_ru": [
               {
@@ -1065,11 +1065,11 @@
               }
             ],
             "precipInches": "0.0",
-            "precipMM": "1.0",
-            "pressure": "1012",
+            "precipMM": "0.6",
+            "pressure": "1011",
             "pressureInches": "30",
-            "tempC": "19",
-            "tempF": "65",
+            "tempC": "16",
+            "tempF": "61",
             "time": "24",
             "uvIndex": "4",
             "visibility": "10",
@@ -1085,14 +1085,14 @@
                 "value": "http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
               }
             ],
-            "winddir16Point": "ESE",
-            "winddirDegree": "101",
+            "winddir16Point": "SSE",
+            "winddirDegree": "148",
             "windspeedKmph": "21",
             "windspeedMiles": "13"
           }
         ],
-        "maxtempC": "19",
-        "maxtempF": "65",
+        "maxtempC": "16",
+        "maxtempF": "61",
         "mintempC": "15",
         "mintempF": "58",
         "sunHour": "4.9",

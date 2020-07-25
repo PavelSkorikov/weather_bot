@@ -1,10 +1,10 @@
 from flask import Flask
-from os import getenv, name
-import json
-import requests
+from os import getenv
 from apscheduler.schedulers.background import BackgroundScheduler
+import telebot
+import re
 
-from weather_from_api import GetForecastFromAPI
+from weather_from_api import GetForecastFromAPI, GetForecastFromFile
 
 app = Flask(__name__)
 
@@ -13,34 +13,27 @@ sched = BackgroundScheduler(daemon=True)
 sched.add_job (GetForecastFromAPI, 'interval', hours=1)
 sched.start()
 
-def GetForecastFromFile(date):
-    """getting weather forecast by date from local weather.tmp"""
-    day = date.split('.')[::-1]
-    with open('weather.tmp', encoding='utf-8') as f:
-        d = json.load(f)
-        weather = {}
-        for item in d['data']['weather']:
-            compare = list(set(day) & set(item['date'].split('-')))
-            if len(compare) == 3:
-                weather['description'] = item['hourly'][0]['lang_ru'][0]['value']
-                weather['maxTemp'] = item['maxtempC']
-                weather['minTemp'] = item['mintempC']
-                weather['pressure'] = item['hourly'][0]['pressure']
-                weather['humidity'] = item['hourly'][0]['humidity']
-                weather['img'] = item['hourly'][0]['weatherIconUrl'][0]['value']
-        if len(weather) == 0:
-            return 'this date is not found'
-        else:
-            return weather
+bot = telebot.TeleBot(getenv('BOT_KEY'))
 
+@bot.message_handler(commands=['start'])
+def start_message(message):
+    bot.send_message(message.chat.id, 'Привет, ты написал мне /start')
 
+@bot.message_handler(content_types=['text'])
+def get_text_messages(message):
+    date = re.findall('\d{2}\.\d{2}\.\d{4}', message.text)
+    if len(date) > 0:
+        bot.send_message(message.from_user.id, date[0])
+    elif message.text == "/help":
+        bot.send_message(message.from_user.id, "Для получения прогноза погоды на любой из следующих 15 дней - отправь дату в формате дд.мм.гггг")
+    else:
+        bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
 
+bot.polling(none_stop=True, interval=0)
 
 @app.route('/')
 def index():
-    return GetForecastFromFile('27.07.2020')
-
-
+    return 'Привет - это будущий API'
 
 
 if __name__ == '__main__':
