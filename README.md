@@ -26,8 +26,7 @@ You can testing Telegram bot by adress:
 
 ## Running with Docker
 To run the server on a Docker container, 
-please define you enviroments configuration in docker-compose.yaml.
-Then execute the following from the root directory:
+execute the following from the root project directory:
 ```
 # building the image and starting up a containers
 sudo docker-compose up --build
