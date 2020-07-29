@@ -1,4 +1,4 @@
-# Calendar Service
+# Weather in Yaroslavl (Telegram bot)
 
 Telegram bot for displaying the weather in Yaroslavl for 15 days
 
