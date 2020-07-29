@@ -1,0 +1,54 @@
+2020-07-25 23:38:18,715 - 4042-INFO-Starting new HTTP connection (1): api.worldweatheronline.com
+2020-07-25 23:38:20,328 - 4042-INFO-weather is getting from api.worldweatheronline.com
+2020-07-25 23:38:20,329 - 4042-INFO-data is write to file weather.tmp
+2020-07-25 23:38:20,706 - 4044-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-25 23:38:20,707 - 4044-INFO-Added job "GetForecastFromAPI" to job store "default"
+2020-07-25 23:38:20,707 - 4044-INFO-Scheduler started
+2020-07-25 23:38:20,712 - 4044-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:39:56,966 - 4044-INFO-bot running now in polling mode
+2020-07-25 23:39:56,969 - 4044-INFO- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-25 23:44:14,674 - 5563-INFO-Starting new HTTP connection (1): api.worldweatheronline.com
+2020-07-25 23:44:15,309 - 5563-INFO-weather is getting from api.worldweatheronline.com
+2020-07-25 23:44:15,309 - 5563-INFO-data is write to file weather.tmp
+2020-07-25 23:44:15,687 - 5566-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-25 23:44:15,687 - 5566-INFO-Added job "GetForecastFromAPI" to job store "default"
+2020-07-25 23:44:15,688 - 5566-INFO-Scheduler started
+2020-07-25 23:44:15,693 - 5566-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:47:25,028 - 5566-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:47:49,268 - 5566-INFO-data is read from file weather.tmp
+2020-07-25 23:47:49,270 - 5566-INFO-Starting new HTTPS connection (2): api.telegram.org
+2020-07-25 23:47:50,082 - 5566-INFO-send message to 558904418
+2020-07-25 23:48:13,007 - 5566-INFO-data is read from file weather.tmp
+2020-07-25 23:48:13,009 - 5566-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:48:13,806 - 5566-INFO-send message to 558904418
+2020-07-25 23:48:29,119 - 5566-INFO-Resetting dropped connection: api.telegram.org
+2020-07-25 23:48:54,148 - 5566-INFO-bot running now in polling mode
+2020-07-25 23:48:54,151 - 5566-INFO- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-25 23:51:17,292 - 6133-INFO-Starting new HTTP connection (1): api.worldweatheronline.com
+2020-07-25 23:51:21,107 - 6133-INFO-weather is getting from api.worldweatheronline.com
+2020-07-25 23:51:21,107 - 6133-INFO-data is write to file weather.tmp
+2020-07-25 23:51:21,482 - 6138-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-25 23:51:21,482 - 6138-INFO-Added job "GetForecastFromAPI" to job store "default"
+2020-07-25 23:51:21,482 - 6138-INFO-Scheduler started
+2020-07-25 23:51:21,487 - 6138-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:52:50,643 - 6138-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:52:53,694 - 6138-INFO-send message to 558904418
+2020-07-25 23:53:23,266 - 6138-INFO-data is read from file weather.tmp
+2020-07-25 23:53:23,268 - 6138-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:53:25,074 - 6138-INFO-send message to 558904418
+2020-07-25 23:53:29,547 - 6138-INFO-bot running now in polling mode
+2020-07-25 23:53:29,550 - 6138-INFO- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-25 23:54:10,846 - 6213-INFO-Starting new HTTP connection (1): api.worldweatheronline.com
+2020-07-25 23:54:11,658 - 6213-INFO-weather is getting from api.worldweatheronline.com
+2020-07-25 23:54:11,658 - 6213-INFO-data is write to file weather.tmp
+2020-07-25 23:54:12,037 - 6215-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-07-25 23:54:12,037 - 6215-INFO-Added job "GetForecastFromAPI" to job store "default"
+2020-07-25 23:54:12,037 - 6215-INFO-Scheduler started
+2020-07-25 23:54:12,042 - 6215-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:54:13,481 - 6215-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:54:13,482 - 6215-INFO-data is read from file weather.tmp
+2020-07-25 23:54:13,485 - 6215-INFO-Starting new HTTPS connection (1): api.telegram.org
+2020-07-25 23:54:15,668 - 6215-INFO-send message to 558904418
+2020-07-25 23:54:16,123 - 6215-INFO-send message to 558904418
+2020-07-25 23:55:04,874 - 6215-INFO-bot running now in polling mode
+2020-07-25 23:55:04,877 - 6215-INFO- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
